@@ -1,6 +1,5 @@
 import numpy as np
-# Note: I'm using globals to keep track of state. Please don't tell my software engineering professor. 
-# (Ideally, this should be refactored as object-oriented instead.) 
+# Note: I'm using globals to keep track of state. Ideally, this should be refactored as object-oriented instead.
 
 def kuramoto(theta, w, N, K):
     """
